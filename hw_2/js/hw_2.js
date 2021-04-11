@@ -47,8 +47,8 @@ if (a > 25 && a < 200) {
 
 // задача 4
 let b = 2;
-let i = 1;
-for (; i <= 20; i++) {
+
+for (let i = 1; i <= 20; i++) {
     console.log(b);
     b += 2;
 }
