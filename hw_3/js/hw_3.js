@@ -60,3 +60,12 @@ for (let i = 0; i < 7; i++) {
 }
 console.log("исходный массив " + random);
 console.log("новый массив " + neg);
+
+// 
+nums = [34, 78, 10, -90, 1, 0, -5];
+let min = Number.MAX_VALUE;
+let max = Number.MIN_VALUE;
+
+for (let i = 0; i < nums.length; i++) {
+    if (nums[i] < min) min = nums[i];
+}
